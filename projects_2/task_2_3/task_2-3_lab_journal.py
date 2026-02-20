@@ -1,5 +1,10 @@
-fio = input("Введите ФИО")
-date = input("Ведите дату")
-experiment = input("Введите название эксперимента")
-with open("journal.txt", "w", encoding="utf-8")as journal:
-journal.write(f"Электронный лабораторный журнал\n ФИО исследователя :\t {fio}\n Дата :\t {date}\n Эксперимент  :\t {experiment}\n Вывод:\n В ходе эксперимента выявлены нарушения долговременной памяти у экспериментальной группы животных")
+
+name = input("Введите ФИО исследователя: ")
+date = input("Введите дату (ДД.ММ.ГГГГ): ")
+experiment_name = input("Введите название эксперимента: ")
+conclusion = input("Введите вывод по эксперименту: ")
+print("=== Заполнение лабораторного журнала ===")
+print(f"Имя: {name}\nДата: {date}\nЭксперимент: {experiment_name}")
+print("-_-" * 14)
+print(f" Вывод: {conclusion}")
+print("-_-" * 14)
