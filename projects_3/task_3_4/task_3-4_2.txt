@@ -1,0 +1,16 @@
+qiidwi@Lenovo:~$ mkdir linux-practice
+qiidwi@Lenovo:~$ cd linux-practice
+qiidwi@Lenovo:~/linux-practice$ mkdir documents
+qiidwi@Lenovo:~/linux-practice$ mkdir documents/past
+qiidwi@Lenovo:~/linux-practice$ mkdir documents/future
+qiidwi@Lenovo:~/linux-practice$ mkdir images
+qiidwi@Lenovo:~/linux-practice$ mkdir backups
+qiidwi@Lenovo:~/linux-practice$ du -h --max-depth=2 ./
+4.0K    ./images
+4.0K    ./documents/past
+4.0K    ./documents/future
+12K     ./documents
+4.0K    ./backups
+24K     ./
+qiidwi@Lenovo:~/linux-practice$ du -h --max-depth=2 ./ > ~/task_3-4_2.txt
+qiidwi@Lenovo:~/linux-practice$
